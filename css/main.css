@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2e2e2e;
+}
+
+nav {
+  height: 10vh;
+  background-color: #181818;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 1.5px 4px #3b3b3b;
+          box-shadow: 0px 1.5px 4px #3b3b3b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav p {
+  color: #dad5c5;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+}
+
+.landing-container {
+  height: 90vh;
+  background-image: url(../images/office.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.about {
+  height: 90vh;
+  background-color: #ffd64e;
+}
+
+@media (max-width: 450px) {
+  nav p {
+    font-size: 0.9rem;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
