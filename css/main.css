@@ -125,7 +125,7 @@ nav h4:hover {
   background-color: #ffd64e;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   nav {
     position: -webkit-sticky;
     position: sticky;
@@ -138,9 +138,13 @@ nav h4:hover {
   }
   .stick {
     height: 0px;
+    overflow: hidden;
   }
   .stick h4 {
     font-size: 0px;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
   }
 }
 /*# sourceMappingURL=main.css.map */

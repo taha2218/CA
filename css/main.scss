@@ -96,7 +96,7 @@ nav{
     background-color: rgb(255, 214, 78);
 }
 
-$mobile-screen: 450px ;
+$mobile-screen: 500px ;
 @media (max-width: $mobile-screen) {
   nav{
     position: sticky;
@@ -110,9 +110,13 @@ $mobile-screen: 450px ;
   }
   .stick{
     height: 0px;
+    overflow: hidden;
       
     & h4{
     font-size: 0px;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
     }
   }
 }
