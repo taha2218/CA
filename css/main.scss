@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +23,7 @@ nav{
     align-items: center ;
     flex-wrap: wrap;
     text-align: center;
+    z-index: 1;
 
     & p{
         color: rgb(255, 234, 167);
@@ -93,7 +95,51 @@ nav{
 
 .about{
     height: 90vh;
-    background-color: rgb(255, 214, 78);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 243, 204);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+    background-position: center;
+   
+
+    & .yellow{
+        z-index: 0;
+        position: absolute;
+        height: 90vh;
+        width: 100%;
+        background-color: rgba(255, 222, 132, 0.884);
+    }
+
+    & h4{
+        z-index: 1;
+        margin-top: 150px;
+        padding: 10px;
+        border: 2px solid rgb(175, 70, 0);
+        color: rgb(175, 70, 0);
+        font-family: 'Noto Sans', sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    & p{
+        z-index: 1;
+        margin-top: 70px;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(196, 96, 29);
+        font-family: 'Oxygen', sans-serif;
+        font-size: 1.2rem;
+    }
 }
 
 $mobile-screen: 500px ;
@@ -118,5 +164,17 @@ $mobile-screen: 500px ;
     width: 0px;
     overflow: hidden;
     }
+  }
+
+  .about{
+      & h4{
+          margin-top: 60px;
+      }
+
+      & p{
+          margin-top: 60px;
+          text-align: justify;
+          font-size: 1.1rem;
+      }
   }
 }
