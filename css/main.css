@@ -262,7 +262,7 @@ nav h4:hover {
   z-index: 1;
   height: 300px;
   width: 280px;
-  background-color: rgba(0, 0, 0, 0.486);
+  background-color: rgba(0, 0, 0, 0.596);
   border-radius: 9px;
 }
 
@@ -272,9 +272,8 @@ nav h4:hover {
     position: sticky;
     top: 0;
   }
-  s
-nav p {
-    font-size: 0.9rem;
+  nav p {
+    font-size: 0.9em;
     margin-left: 2px;
     margin-right: 2px;
   }
