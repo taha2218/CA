@@ -275,6 +275,31 @@ nav h4:hover {
           align-items: center;
   color: white;
   font-size: 2.8rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.buffer .card:hover {
+  -webkit-transform: translate(0px, -15px);
+          transform: translate(0px, -15px);
+  -webkit-box-shadow: rgba(20, 20, 20, 0.808) 5px 5px 15px;
+          box-shadow: rgba(20, 20, 20, 0.808) 5px 5px 15px;
+}
+
+.buffer .one {
+  color: #0099ff;
+}
+
+.buffer .two {
+  color: #ff0077;
+}
+
+.buffer .three {
+  color: #fffb00;
+}
+
+.buffer .four {
+  color: #ff6600;
 }
 
 @media (max-width: 500px) {

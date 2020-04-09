@@ -199,6 +199,23 @@ nav{
         align-items: center;
         color: white;
         font-size: 2.8rem;
+        transition: all 0.4s;
+    }
+    & .card:hover{
+        transform: translate(-0px,-15px);
+        box-shadow: rgba(20, 20, 20, 0.808) 5px 5px 15px;
+    }
+    & .one{
+        color: rgb(0, 153, 255) ;
+    }
+    & .two{
+        color: rgb(255, 0, 119) ;
+    }
+    & .three{
+        color: rgb(255, 251, 0) ;
+    }
+    & .four{
+        color: rgb(255, 102, 0) ;
     }
 }
 
