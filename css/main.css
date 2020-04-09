@@ -253,7 +253,7 @@ nav h4:hover {
   position: absolute;
   height: 60vh;
   width: 100%;
-  background-color: rgba(48, 47, 47, 0.842);
+  background-color: rgba(48, 47, 47, 0.699);
   top: 0%;
 }
 
@@ -262,8 +262,19 @@ nav h4:hover {
   z-index: 1;
   height: 300px;
   width: 280px;
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.726);
   border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 2.8rem;
 }
 
 @media (max-width: 500px) {
