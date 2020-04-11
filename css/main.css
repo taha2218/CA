@@ -187,7 +187,7 @@ nav h4:hover {
   position: absolute;
   height: 90vh;
   width: 100%;
-  background-color: rgba(255, 222, 132, 0.884);
+  background-color: rgba(255, 222, 132, 0.842);
 }
 
 .about h4 {
@@ -230,7 +230,7 @@ nav h4:hover {
 
 .buffer {
   height: 60vh;
-  background-image: url(../images/buffer.jpg);
+  background-image: url(../images/buffer1.jpg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -253,7 +253,7 @@ nav h4:hover {
   position: absolute;
   height: 60vh;
   width: 100%;
-  background-color: rgba(48, 47, 47, 0.699);
+  background-color: rgba(109, 54, 29, 0.301);
   top: 0%;
 }
 
@@ -262,7 +262,7 @@ nav h4:hover {
   z-index: 1;
   height: 300px;
   width: 280px;
-  background-color: rgba(0, 0, 0, 0.726);
+  background-color: white;
   border-radius: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -282,8 +282,8 @@ nav h4:hover {
 .buffer .card:hover {
   -webkit-transform: translate(0px, -15px);
           transform: translate(0px, -15px);
-  -webkit-box-shadow: rgba(20, 20, 20, 0.808) 5px 5px 15px;
-          box-shadow: rgba(20, 20, 20, 0.808) 5px 5px 15px;
+  -webkit-box-shadow: rgba(107, 107, 107, 0.877) 5px 5px 15px;
+          box-shadow: rgba(107, 107, 107, 0.877) 5px 5px 15px;
 }
 
 .buffer .one {
@@ -295,11 +295,17 @@ nav h4:hover {
 }
 
 .buffer .three {
-  color: #fffb00;
+  color: #ffbb00;
 }
 
 .buffer .four {
   color: #ff6600;
+}
+
+.service {
+  background-color: #ffebd2;
+  height: 90vh;
+  width: 100%;
 }
 
 @media (max-width: 500px) {

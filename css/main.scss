@@ -135,7 +135,7 @@ nav{
         position: absolute;
         height: 90vh;
         width: 100%;
-        background-color: rgba(255, 222, 132, 0.884);
+        background-color: rgba(255, 222, 132, 0.842);
     }
 
     & h4{
@@ -170,7 +170,7 @@ nav{
 
 .buffer{
     height: 60vh;
-    background-image: url(../images/buffer.jpg);
+    background-image: url(../images/buffer1.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -184,7 +184,7 @@ nav{
         position: absolute;
         height: 60vh;
         width: 100%;
-        background-color: rgba(48, 47, 47, 0.699);
+        background-color: rgba(109, 54, 29, 0.301);
         top: 0%;
     }
     & .card{
@@ -192,10 +192,10 @@ nav{
         z-index: 1;
         height: 300px;
         width: 280px;
-        background-color: rgba(0, 0, 0, 0.726);
+        background-color: rgb(255, 255, 255);
         border-radius: 9px;
         display: flex;
-        justify-content: center;
+        justify-content: center;    
         align-items: center;
         color: white;
         font-size: 2.8rem;
@@ -203,7 +203,7 @@ nav{
     }
     & .card:hover{
         transform: translate(-0px,-15px);
-        box-shadow: rgba(20, 20, 20, 0.808) 5px 5px 15px;
+        box-shadow: rgba(107, 107, 107, 0.877) 5px 5px 15px;
     }
     & .one{
         color: rgb(0, 153, 255) ;
@@ -212,11 +212,17 @@ nav{
         color: rgb(255, 0, 119) ;
     }
     & .three{
-        color: rgb(255, 251, 0) ;
+        color: rgb(255, 187, 0) ;
     }
     & .four{
         color: rgb(255, 102, 0) ;
     }
+}
+
+.service{
+    background-color: rgb(255, 235, 210);
+    height: 90vh;
+    width: 100%;
 }
 
 $mobile-screen: 500px ;
