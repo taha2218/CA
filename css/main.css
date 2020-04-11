@@ -310,6 +310,58 @@ nav h4:hover {
   height: 30.5vh;
   width: 100%;
   background-color: #0077ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.service h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.9rem;
+  padding: 10px;
+  margin: 0px 4px;
+  border: 1px solid #28a9ff;
+  -webkit-transform: all 1s;
+          transform: all 1s;
+}
+
+.service h4 {
+  color: rgba(255, 255, 255, 0.747);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  font-family: 'Oxygen';
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  font-weight: 200;
 }
 
 @media (max-width: 500px) {
@@ -340,6 +392,14 @@ nav h4:hover {
     margin-top: 60px;
     text-align: justify;
     font-size: 1.1rem;
+  }
+  .service h3 {
+    font-size: 1.3rem;
+  }
+  .service h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.466);
   }
 }
 

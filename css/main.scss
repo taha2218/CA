@@ -228,7 +228,38 @@ nav{
         height: 30.5vh;
         width: 100%;
         background-color: rgb(0, 119, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
+
+    & h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Oxygen', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.9rem;
+        padding: 10px;
+        margin: 0px 4px;
+        border: 1px solid rgb(40, 169, 255);
+        transform: all 1s;
+    }
+    & h4{
+        color: rgba(255, 255, 255, 0.747);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-family: 'Oxygen';
+        letter-spacing: 2px;
+        font-size: 1.1rem;
+        font-weight: 200;
+
+    }
+
 }
 
 $mobile-screen: 500px ;
@@ -241,7 +272,7 @@ $mobile-screen: 500px ;
     font-size: 0.9em ;
     margin-left: 2px;
     margin-right: 2px;
-    }
+    }       
   }
   .stick{
     height: 0px;
@@ -266,6 +297,16 @@ $mobile-screen: 500px ;
           font-size: 1.1rem;
       }
       
+  }
+  .service{
+      & h3{
+          font-size: 1.3rem;
+      }
+      & h4{
+          font-size: 0.9rem;
+          font-weight: 600;
+          color: rgba(0, 0, 0, 0.466);
+      }
   }
 
 }
