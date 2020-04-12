@@ -265,7 +265,6 @@ nav{
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
         padding: 0 10px;
     }
 
@@ -274,7 +273,6 @@ nav{
         display: flex;
         justify-content:flex-start;
         align-items: center;
-        overflow: hidden;
 
         & .serv-card{
             background-color: rgb(24, 22, 22);
