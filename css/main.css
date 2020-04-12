@@ -365,7 +365,7 @@ nav h4:hover {
 }
 
 .service .below {
-  height: 59.5vh;
+  height: 58.5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -391,14 +391,40 @@ nav h4:hover {
 }
 
 .service .glider .serv-card {
-  background-color: #1a1717;
+  background-color: #181818;
   border-radius: 6px;
   margin: 10px;
   color: white;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .service .glider .glider-track {
   height: 380px;
+}
+
+.service .glider .glider-slide:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.service .glider i {
+  font-size: 3rem;
 }
 
 @media (max-width: 500px) {
