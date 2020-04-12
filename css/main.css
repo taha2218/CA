@@ -425,6 +425,19 @@ nav h4:hover {
 
 .service .glider i {
   font-size: 3rem;
+  color: #e2e2e2 184, 180, 180;
+  margin-top: 40px;
+}
+
+.service .glider P {
+  margin: 25px;
+  margin-top: 15px;
+  padding: 10px;
+  padding-top: 30px;
+  text-align: center;
+  color: #9e9e9e;
+  font-family: 'Oxygen';
+  font-size: 1.1rem;
 }
 
 @media (max-width: 500px) {
@@ -463,6 +476,10 @@ nav h4:hover {
     font-size: 0.9rem;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.466);
+  }
+  .service .glider-slide:hover {
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
   }
 }
 

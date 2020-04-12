@@ -297,6 +297,18 @@ nav{
         }
         & i{
             font-size: 3rem;
+            color: rgb(226, 226, 226)(184, 180, 180);
+            margin-top: 40px;
+        }
+        & P{
+            margin: 25px;
+            margin-top: 15px;
+            padding: 10px;
+            padding-top: 30px;
+            text-align: center;
+            color: rgb(158, 158, 158);
+            font-family: 'Oxygen';
+            font-size: 1.1rem;
         }
     }
 
@@ -346,6 +358,9 @@ $mobile-screen: 500px ;
           font-size: 0.9rem;
           font-weight: 600;
           color: rgba(0, 0, 0, 0.466);
+      }
+      & .glider-slide:hover{
+          transform: scale(1) !important;
       }
   }
 
