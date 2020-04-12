@@ -259,6 +259,40 @@ nav{
         font-weight: 200;
 
     }
+    
+    & .below{
+        height: 59.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 0 10px;
+    }
+
+    & .glider{
+
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        overflow: hidden;
+
+        & .serv-card{
+            background-color: rgb(24, 22, 22);
+            //width: 300px;
+            border-radius: 6px;
+            margin:10px;
+            color: white;
+        }
+
+        & .glider-track{
+            height: 380px;
+
+        }
+
+        & .glider-slide{
+         
+        }
+    }
 
 }
 

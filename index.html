@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KU SIDDIQUI & CO.</title>
+    <link rel="stylesheet" href="./glider.css">
     <link rel="stylesheet" href="./css/main.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
 </head>
 <body>
     <nav>
-        <p>KU SIDDIQUI & CO. CHARTERED ACCOUNTANT</p>
+        <p>K U SIDDIQUI & CO. CHARTERED ACCOUNTANT</p>
     </nav>
     <nav class="stick">
         <h4>HOME</h4>
@@ -19,7 +20,7 @@
     </nav>
     <div class="landing-container">
         <div class="head0">
-            <p>WELCOME TO KU SIDDIQUI & CO</p>
+            <p>WELCOME TO K U SIDDIQUI & CO</p>
         </div>
         <div class="head1">
             <p>PROVIDING THE BEST PROFESSIONAL SERVICE</p>
@@ -48,7 +49,30 @@
             <h3>SERVICES WE OFFER</h3>
             <h4>What we can do for you !</h4>
         </div>
+        <div class="below">
+            <div class="glider">
+                <div class="serv-card">1</div>
+                <div class="serv-card">2</div>
+                <div class="serv-card">3</div>
+                <div class="serv-card">4</div>
+                <div class="serv-card">5</div>
+                <div class="serv-card">6</div>
+                <div class="serv-card">7</div>
+                <div class="serv-card">8</div>
+                <div class="serv-card">9</div>
+                <div class="serv-card">10</div>
+                <div class="serv-card">11</div>
+                <div class="serv-card">12</div>
+            </div>
+        </div>
     </div>
+    <script src="./glider.js"></script>
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 5,
+            draggable: true,
+        });
+    </script>
 </body>
 </html>
 <!-- 

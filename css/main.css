@@ -364,6 +364,45 @@ nav h4:hover {
   font-weight: 200;
 }
 
+.service .below {
+  height: 59.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.service .glider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.service .glider .serv-card {
+  background-color: #181616;
+  border-radius: 6px;
+  margin: 10px;
+  color: white;
+}
+
+.service .glider .glider-track {
+  height: 380px;
+}
+
 @media (max-width: 500px) {
   nav {
     position: -webkit-sticky;
