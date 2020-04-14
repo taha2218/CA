@@ -314,6 +314,76 @@ nav{
 
 }
 
+.touch{
+    height: 30.5vh;
+    background-color: rgb(255, 174, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Oxygen', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.9rem;
+        padding: 10px;
+        margin: 0px 4px;
+        border: 1px solid rgb(255, 255, 255);
+        transform: all 1s;
+    }
+    & h4{
+        color: rgba(255, 255, 255, 0.747);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        font-family: 'Oxygen';
+        letter-spacing: 2px;
+        font-size: 1.1rem;
+        font-weight: 200;
+
+    }
+
+}
+
+.contact{
+    height: 59.5vh;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    & .contact-card{
+        //background-color: rgb(27, 27, 27);
+        height: 380px;
+        width: 380px;
+        margin: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    & .head{
+        color: white;
+        font-weight: 550;
+        padding: 15px;
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        width: 100%;
+        border-bottom: rgb(255, 153, 0) 1.5px solid;
+        font-family: 'Noto Sans';
+        letter-spacing: 1px;
+        transition: all 0.3s;
+    }
+    & .contact-card:hover .head{
+        border-bottom: rgb(255, 153, 0) 5px solid;
+    }
+}
+
 $mobile-screen: 500px ;
 @media (max-width: $mobile-screen) {
   nav{
@@ -363,7 +433,18 @@ $mobile-screen: 500px ;
           transform: scale(1) !important;
       }
   }
-
+  .touch{
+    & h3{
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+    & h4{
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0 15px;
+        text-align: center;
+    }
+  }
 }
 
 $medium-screen: 1200px ;
@@ -382,6 +463,19 @@ $medium-screen: 1200px ;
 
         & .card{
             margin-top: 54px;
+        }
+    }
+
+    .contact{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        & .contact-card{
+            width: 300px;
+
         }
     }
 }

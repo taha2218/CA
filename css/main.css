@@ -440,6 +440,113 @@ nav h4:hover {
   font-size: 1.1rem;
 }
 
+.touch {
+  height: 30.5vh;
+  background-color: #ffae00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.touch h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.9rem;
+  padding: 10px;
+  margin: 0px 4px;
+  border: 1px solid white;
+  -webkit-transform: all 1s;
+          transform: all 1s;
+}
+
+.touch h4 {
+  color: rgba(255, 255, 255, 0.747);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  font-family: 'Oxygen';
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.contact {
+  height: 59.5vh;
+  background-color: #131313;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact .contact-card {
+  height: 380px;
+  width: 380px;
+  margin: 10px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact .head {
+  color: white;
+  font-weight: 550;
+  padding: 15px;
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+  width: 100%;
+  border-bottom: #ff9900 1.5px solid;
+  font-family: 'Noto Sans';
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.contact .contact-card:hover .head {
+  border-bottom: #ff9900 5px solid;
+}
+
 @media (max-width: 500px) {
   nav {
     position: -webkit-sticky;
@@ -481,6 +588,16 @@ nav h4:hover {
     -webkit-transform: scale(1) !important;
             transform: scale(1) !important;
   }
+  .touch h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  .touch h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0 15px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -505,6 +622,23 @@ nav h4:hover {
   }
   .buffer .card {
     margin-top: 54px;
+  }
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px;
+  }
+  .contact .contact-card {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=main.css.map */
