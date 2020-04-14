@@ -382,6 +382,9 @@ nav{
     }
     & .contact-card:hover .head{
         border-bottom: rgb(255, 153, 0) 5px solid;
+        & i{
+            color: rgb(255, 172, 18);
+        }
     }
     & .map{
         display: flex;
@@ -393,6 +396,34 @@ nav{
         & iframe{
             height: 90%;
             width: 99%;
+        }
+    }
+    & .cnt{
+        color: white;
+        font-family: 'Noto Sans';
+        font-size: 0.9rem;
+        padding: 14px 4px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        & h4{
+            font-weight: 200 !important;
+            color: rgb(109, 109, 109);
+            transition: all 0.6s;
+        }
+        & i{
+            padding-right: 15px;
+            font-size: 1.2rem;
+            color: rgb(121, 121, 121);
+        }
+    }
+    & .cnt:hover{
+        & h4{
+            color: rgb(209, 209, 209);
+        }
+        & i{
+            color: rgb(255, 186, 59)
         }
     }
 }

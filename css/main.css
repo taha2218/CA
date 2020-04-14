@@ -551,6 +551,10 @@ nav h4:hover {
   border-bottom: #ff9900 5px solid;
 }
 
+.contact .contact-card:hover .head i {
+  color: #ffac12;
+}
+
 .contact .map {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -568,6 +572,46 @@ nav h4:hover {
 .contact .map iframe {
   height: 90%;
   width: 99%;
+}
+
+.contact .cnt {
+  color: white;
+  font-family: 'Noto Sans';
+  font-size: 0.9rem;
+  padding: 14px 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact .cnt h4 {
+  font-weight: 200 !important;
+  color: #6d6d6d;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.contact .cnt i {
+  padding-right: 15px;
+  font-size: 1.2rem;
+  color: #797979;
+}
+
+.contact .cnt:hover h4 {
+  color: #d1d1d1;
+}
+
+.contact .cnt:hover i {
+  color: #ffba3b;
 }
 
 @media (max-width: 500px) {
