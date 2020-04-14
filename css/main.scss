@@ -366,6 +366,7 @@ nav{
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
+        flex-direction: column;
     }
     & .head{
         color: white;
@@ -373,7 +374,7 @@ nav{
         padding: 15px;
         padding-left: 0px !important;
         padding-top: 0px !important;
-        width: 100%;
+        width: 365px;
         border-bottom: rgb(255, 153, 0) 1.5px solid;
         font-family: 'Noto Sans';
         letter-spacing: 1px;
@@ -381,6 +382,18 @@ nav{
     }
     & .contact-card:hover .head{
         border-bottom: rgb(255, 153, 0) 5px solid;
+    }
+    & .map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        
+        & iframe{
+            height: 90%;
+            width: 99%;
+        }
     }
 }
 
