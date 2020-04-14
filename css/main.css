@@ -661,6 +661,9 @@ nav h4:hover {
     padding: 20px;
   }
   .contact .contact-card {
+    width: 300px !important;
+  }
+  .contact .contact-card .head {
     width: 300px;
   }
 }

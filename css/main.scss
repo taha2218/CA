@@ -486,9 +486,13 @@ $medium-screen: 1200px ;
         align-items: center;
         padding: 20px;
 
+        
         & .contact-card{
-            width: 300px;
+            width: 300px !important;
 
+            & .head{
+                width: 300px;
+            }
         }
     }
 }
