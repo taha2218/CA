@@ -533,6 +533,10 @@ nav h4:hover {
           flex-direction: column;
 }
 
+.contact .contact-card .ca:hover {
+  color: #b8b8b8 !important;
+}
+
 .contact .head {
   color: white;
   font-weight: 550;

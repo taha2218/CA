@@ -367,6 +367,10 @@ nav{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
+
+        & .ca:hover{
+            color: rgb(184, 184, 184) !important;
+        }
     }
     & .head{
         color: white;
