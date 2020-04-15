@@ -26,7 +26,7 @@ nav{
     z-index: 2;
 
     & p{
-        color: rgb(255, 209, 182);
+        color: rgb(255, 215, 152);
         font-family: 'Source Sans Pro', sans-serif;
         letter-spacing: 2px;
         font-size: 1.4rem;
@@ -60,7 +60,7 @@ nav{
 
 .landing-container{
     height: 90vh;
-    background-image: url(../images/office.jpg);
+    background-image: url(../images/office.jpg  );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,7 +77,7 @@ nav{
         font-family: 'Noto Sans', sans-serif;
     }
     & .head1{
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.856);
         padding: 3px;
         margin-left: 10px;
         display: flex;
@@ -92,7 +92,7 @@ nav{
         margin-top: 10px;
     }
     & .head0{
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.856);
         padding: 3px;
         margin-left: 10px;
         display: flex;
@@ -110,7 +110,7 @@ nav{
         border-left: 20px solid rgb(255, 172, 18);
     }
     & .head0:hover{
-        border-left: 20px solid rgb(196, 13, 0);
+        border-left: 20px solid rgb(255, 17, 0);
     }
 
 }
@@ -197,9 +197,24 @@ nav{
         display: flex;
         justify-content: center;    
         align-items: center;
+        flex-direction: column;
         color: white;
-        font-size: 2.8rem;
+        font-size: 2rem;
         transition: all 0.4s;
+        font-family: 'Oxygen';
+        font-weight: 600 ;
+
+        & i{
+            margin-bottom: 10px;
+            font-size: 2.8rem;
+            padding: 10px;
+        }
+
+        & p{
+            font-weight: normal;
+            font-size: 2rem;
+            font-family: 'Oxygen';
+        }
     }
     & .card:hover{
         transform: translate(-0px,-15px);
@@ -207,15 +222,28 @@ nav{
     }
     & .one{
         color: rgb(0, 153, 255) ;
+
+        & i{
+            border: rgb(0, 153, 255) 1.5px solid;
+        }
     }
     & .two{
         color: rgb(255, 0, 119) ;
+        & i{
+            border: rgb(255, 0, 119) 1.5px solid;
+        }
     }
     & .three{
         color: rgb(255, 187, 0) ;
+        & i{
+            border: rgb(255, 187, 0) 1.5px solid;
+        }
     }
     & .four{
         color: rgb(255, 102, 0) ;
+        & i{
+            border: rgb(255, 102, 0) 1.5px solid;
+        }
     }
 }
 

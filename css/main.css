@@ -34,7 +34,7 @@ nav {
 }
 
 nav p {
-  color: #ffd1b6;
+  color: #ffd798;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 2px;
   font-size: 1.4rem;
@@ -101,7 +101,7 @@ nav h4:hover {
 }
 
 .landing-container .head1 {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.856);
   padding: 3px;
   margin-left: 10px;
   display: -webkit-box;
@@ -125,7 +125,7 @@ nav h4:hover {
 }
 
 .landing-container .head0 {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.856);
   padding: 3px;
   margin-left: 10px;
   display: -webkit-box;
@@ -153,7 +153,7 @@ nav h4:hover {
 }
 
 .landing-container .head0:hover {
-  border-left: 20px solid #c40d00;
+  border-left: 20px solid #ff1100;
 }
 
 .about {
@@ -271,10 +271,28 @@ nav h4:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: white;
-  font-size: 2.8rem;
+  font-size: 2rem;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  font-family: 'Oxygen';
+  font-weight: 600;
+}
+
+.buffer .card i {
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  padding: 10px;
+}
+
+.buffer .card p {
+  font-weight: normal;
+  font-size: 2rem;
+  font-family: 'Oxygen';
 }
 
 .buffer .card:hover {
@@ -288,16 +306,32 @@ nav h4:hover {
   color: #0099ff;
 }
 
+.buffer .one i {
+  border: #0099ff 1.5px solid;
+}
+
 .buffer .two {
   color: #ff0077;
+}
+
+.buffer .two i {
+  border: #ff0077 1.5px solid;
 }
 
 .buffer .three {
   color: #ffbb00;
 }
 
+.buffer .three i {
+  border: #ffbb00 1.5px solid;
+}
+
 .buffer .four {
   color: #ff6600;
+}
+
+.buffer .four i {
+  border: #ff6600 1.5px solid;
 }
 
 .service {
