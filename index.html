@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KU SIDDIQUI & CO.</title>
     <link rel="stylesheet" href="./glider.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
@@ -29,10 +30,18 @@
     <div class="about">
         <div class="yellow">
         </div>
-        <h4>
+        <h4 
+        data-aos="fade-up"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="600"
+            > 
             ABOUT US
         </h4>
-        <p>
+        <p 
+        data-aos="zoom-in-up"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="900"
+        >
             Firm has strong conceptual base in finance & accounts, audit and other consultancy work related to diversified nature of organizations both in public and private sector in computerized and manual environments with a good exposure of national as well as international accounting and auditing standards. Carried out various training program in accounts, auditing and financial management for the benefit of clients as well as own staff and partners have active involvement in various study workshops organized by the Institute of Chartered Accountants of India and other associate bodies on subjects like International Accounting and Auditing Standards, USGAPP & US Listing, emerging new trends in the area of Internal Audit etc.
         </p>
     </div>
@@ -101,13 +110,12 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.js"></script>
-    <script>
-        gsap.to('.landing-container',2,{opacity:1});
-        gsap.to('.head0',1.3,{delay:1.5,opacity:1,x:0,ease: "circ.out"});
-        gsap.to('.head1',1.3,{delay:1.5,opacity:1,x:0,ease: "circ.out"});
-    </script>
     <script src="./glider.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
 <!-- 

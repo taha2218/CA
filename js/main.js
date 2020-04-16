@@ -1,5 +1,13 @@
 
 
+//Animations
+
+gsap.to('.landing-container',2,{opacity:1});
+gsap.to('.head0',1,{delay:1.5,opacity:1,x:0,ease: "circ.out"});
+gsap.to('.head1',1,{delay:1.5,opacity:1,x:0,ease: "circ.out"});
+
+//Animations
+
 //Slider for Services
 
 new Glider(document.querySelector('.glider'), {
