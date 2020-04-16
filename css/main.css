@@ -92,6 +92,7 @@ nav h4:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  opacity: 0;
 }
 
 .landing-container p {
@@ -122,6 +123,10 @@ nav h4:hover {
   transition: all 0.6s;
   max-width: 750px;
   margin-top: 10px;
+  -webkit-transform: translateX(-300px);
+          transform: translateX(-300px);
+  opacity: 0;
+  overflow: hidden;
 }
 
 .landing-container .head0 {
@@ -146,6 +151,9 @@ nav h4:hover {
   transition: all 0.6s;
   max-width: 750px;
   margin-top: 10px;
+  -webkit-transform: translateX(300px);
+          transform: translateX(300px);
+  opacity: 0;
 }
 
 .landing-container .head1:hover {
@@ -672,6 +680,11 @@ nav h4:hover {
     height: 0px;
     width: 0px;
     overflow: hidden;
+  }
+  .landing-container .head0 {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+    opacity: 0;
   }
   .about h4 {
     margin-top: 60px;

@@ -70,6 +70,7 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    opacity: 0;
     
     & p{
         color: rgb(255, 229, 196);
@@ -90,6 +91,9 @@ nav{
         transition: all 0.6s;
         max-width: 750px;
         margin-top: 10px;
+        transform: translateX(-300px);
+        opacity: 0;
+        overflow: hidden;
     }
     & .head0{
         background-color: rgba(0, 0, 0, 0.856);
@@ -105,6 +109,8 @@ nav{
         transition: all 0.6s;
         max-width: 750px;
         margin-top: 10px;
+        transform: translateX(300px);
+        opacity: 0;
     }
     & .head1:hover{
         border-left: 20px solid rgb(255, 172, 18);
@@ -482,6 +488,12 @@ $mobile-screen: 500px ;
     width: 0px;
     overflow: hidden;
     }
+  }
+  .landing-container{
+      & .head0{
+          transform: translateX(-300px);
+          opacity: 0;
+      }
   }
 
   .about{
